@@ -2,10 +2,6 @@
 
 ---
 
-[Real World Queries](https://www.notion.so/Real-World-Queries-12d7438590b480ada996d3e89e381ca8?pvs=21)
-
-[**Windows Registry**](https://www.notion.so/Windows-Registry-1017438590b4803c8a47e1aad5cb692d?pvs=21) 
-
 - `fields`- extracts new fields and use + and - to add and remove fields
 - `search` - search for keywords
 - `dedup` - remove the duplicates and type next to command the field name
@@ -57,19 +53,3 @@
 - `addtotals row=f col=t label=”Total Purchase” labelfield=longitude purchase` - this will create a box with this string and count the column of the purchase field and them together and display the sum of the purchase next to the string box |
 - `$field$` - creates a token which the user can input in a dashboard and gets the selected values based on the input
 
-## Hints
-
----
-
-- Create workflows to link (Virus Total) and (Who Is Lookup) to your searches and save time
-- Download CIM and learn more about it
-- Extract fields and name them to get more specific results by going to extract fields
-- Use the Splunk add on builder easier and from their you can use data models too and create field aliases and anything else
-- We can create fields using the field aliases and create calculate fields that has numbers such as megabytes
-- Edit Tags for fields you extract for making reading easier such as giving tags for event codes
-- Use data models to make queries easier. Learn More!
-- We can also color specific fields we want such as purchase with colors by going to the event types setting and editing the event
-- We can also create macros to save our search by going to advanced search and also we can create arguments to pass the macro in the search with the user choice to search for a specific result so we have to create a token when we create a macro
-- Use Chat GPT and regex101 websites to get ready regex commands
-- Instead of doing stats count by action=purchase, we can do action=purchase before the stats count and then do the stats count without adding any extras
-- Use format setting under the search bar to see the total of the columns if you  need instead of typing commands
